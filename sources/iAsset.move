@@ -10,6 +10,10 @@ module dfmm_framework::iAsset {
         withdrawn_rewards: u64
     }
 
+    public fun deconstruct_user_rewards (item: &UserRewardsInfo): (u64, u64, u64, u64, u64) {
+        (item.allocated_rewards, item.withdrawable_rewards, item.withdrawable_rewards_epoch, item.withdrawable_rewards_ts, item.withdrawn_rewards)
+    }
+
     #[view]
     public fun get_allocatable_rewards(user_address: address, asset: Object<Metadata>): u64 {
         abort 0
