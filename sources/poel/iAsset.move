@@ -20,7 +20,7 @@ module dfmm_framework::iAsset {
     }
 
     #[view]
-    public fun get_user_rewards_info(user_address: address): UserRewardsInfo {
+    public fun get_user_rewards (user_address: address): UserRewardsInfo {
         abort 0
     }
 
