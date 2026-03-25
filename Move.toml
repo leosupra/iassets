@@ -7,9 +7,9 @@ authors = []
 dfmm_framework = "0xda20f7d0ec813c751926f06004a10bc6ee1eefc96798f6a1aa31447ee146f932"
 
 [dependencies.SupraFramework]
-git = 'https://github.com/Entropy-Foundation/aptos-core.git'
-subdir = 'aptos-move/framework/supra-framework'
-rev = 'dev'
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "aptosvm-v1.16_supra-v1.6.6"
+subdir = "aptos-move/framework/supra-framework"
 
 [dependencies.access_control]
 git = "https://github.com/Entropy-Foundation/access_control_public.git"
