@@ -1,4 +1,4 @@
-module dfmm_framework::iAsset {
+module supranova::iAsset {
     use supra_framework::object::Object;
     use supra_framework::fungible_asset::Metadata;
 
