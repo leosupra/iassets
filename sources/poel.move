@@ -1,4 +1,4 @@
-module supranova::poel {
+module dfmm_framework::poel {
     use supra_framework::object::Object;
     use supra_framework::fungible_asset::Metadata;
 
