@@ -6,6 +6,4 @@ authors = []
 [addresses]
 dfmm_framework = "0xda20f7d0ec813c751926f06004a10bc6ee1eefc96798f6a1aa31447ee146f932"
 
-[dependencies.SupraFramework]
-git = "https://github.com/Entropy-Foundation/aptos-core.git"
-subdir = "aptos-move/framework/supra-framework"
+
