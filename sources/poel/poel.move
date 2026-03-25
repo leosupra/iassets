@@ -1,6 +1,6 @@
 module dfmm_framework::poel {
-    use supra_framework::object::Object;
-    use supra_framework::fungible_asset::Metadata;
+    use aptos_std::object::{Self, ExtendRef, Object};
+    use aptos_std::fungible_asset::{Metadata};
 
     public fun update_rewards(user_address: address, asset: Object<Metadata>) {
         abort 0
