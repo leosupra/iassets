@@ -6,7 +6,27 @@ authors = []
 [addresses]
 dfmm_framework = "0xda20f7d0ec813c751926f06004a10bc6ee1eefc96798f6a1aa31447ee146f932"
 
+[dev-addresses]
+
+dfmm_admin = "0x46541ee138920e00595c0af4aa04f1e248d22af6c6e90e834b13b04ce9b55cec"
+dfmm_framework = "0x4d32537c4e7773cda63e2594bf2134c379b510c2dd9a68c2dfe53c7abccc61ba"
+access_control = "0xdeadF2"
+supra_oracle = "0xdeadF1"
+hypernova_core = "0xdead"
+
 [dependencies.SupraFramework]
 git = "https://github.com/Entropy-Foundation/aptos-core.git"
-rev = "dev"
+rev = "aptosvm-v1.16_supra-v1.6.6"
 subdir = "aptos-move/framework/supra-framework"
+
+[dependencies.core]
+local = "deps/supra_oracle"
+
+[dependencies.hypernova_core]
+local = "deps/hypernova_core"
+
+
+[dependencies.access_control]
+git = "https://github.com/Entropy-Foundation/access_control_public.git"
+subdir = ""
+rev = "maste
