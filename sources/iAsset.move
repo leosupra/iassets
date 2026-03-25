@@ -1,6 +1,6 @@
 module dfmm_framework::iAsset {
-    use aptos_std::object::Object;
-    use aptos_std::fungible_asset::Metadata;
+    use supra_framework::object::Object;
+    use supra_framework::fungible_asset::Metadata;
 
     struct UserRewardsInfo has copy, drop {
         allocated_rewards: u64,
